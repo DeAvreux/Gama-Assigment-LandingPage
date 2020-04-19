@@ -1,0 +1,135 @@
+body{
+    background-color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#content{
+    background-color: #3cb371;
+    padding-left: 20px;    
+    padding-right: 20px;
+}
+
+
+
+a:link{
+    font-family: sans-serif;
+    color:yellow;
+}
+
+a:visited{
+    color: black;
+    text-decoration: underline;
+}
+
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#header{
+    border: white solid 3px;
+    text-align: center;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    border: white solid 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+}
+
+#newsText{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-right: auto;
+    margin-left: auto;
+    align-self: center;
+}
+
+.new{
+    border: black solid 2px;
+    margin: 15px;
+    text-align: justify;
+    padding: 4px;
+    font-size: 75%;
+
+}
+
+.newsTitle{
+    text-align: center;
+    text-decoration: underline ;
+    color: yellow;
+    font-size: 120%;
+    height: 10%;
+}
+
+.newsContent{
+    height: 90%;
+    margin-top: 15%;
+    padding: 5%;
+}
+
+#presentation{
+    display: block;
+    
+    background-color: yellowgreen;
+    border-radius: 50px;
+    width: 900px;
+}
+
+#presCard{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#abreu{
+    height: 320px;
+    width: 180px;
+    margin: 15px;
+    box-shadow: yellowgreen 3px 3px 5px;
+    border-radius: 30px;
+}
+
+#prestext{
+    height: 320px;
+    width: 600px;
+    font-size: 20px;
+    
+    text-align: justify;
+    padding: 12px;
+}
+ #newsFonts{
+     display: block;
+     justify-content: space-between;
+ }
+
+ #imagen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ #rodape{
+     margin-top: 10px;
+ }
+
+ #forms{
+     margin: auto;
+     padding: 150px;
+     background-color: greenyellow;
+     border-radius: 300px;
+ }
